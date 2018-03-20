@@ -115,3 +115,40 @@ h1 span{
   width: 120px;
   height: 100px;
 }
+
+
+
+
+.test3{
+  background-color: darkgray;
+  padding: 10px;
+  display: flex;
+}
+
+.left{
+  background-color: pink;
+  padding: 20px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  flex: 3 1 300px;
+}
+
+.main{
+  background-color: orange;
+  padding: 20px;
+  flex: 1 3 100px;
+}
+
+.left img{
+  width: 170px;
+  height: 160px;
+}
+
+.items{
+  margin: 10px 0px;
+  border: 1px solid gray;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+}
